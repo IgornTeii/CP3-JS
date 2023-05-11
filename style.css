@@ -121,4 +121,12 @@ img{
 form{
     margin-top: 100px;
     margin-left: 50px;
+    text-align: center;
+}
+
+/*Sobre*/
+#historia{
+    margin-top: 100px;
+    margin-left: 110px;
+    text-align: center;
 }

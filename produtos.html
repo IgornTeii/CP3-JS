@@ -94,6 +94,16 @@
     </div>
 
     <!--chamando o javascritp externo-->
-    <script src="script.js"></script>
+    <script>var corFundo = "#f8f8f8"; // cor de fundo clara
+      
+        var btnMudarCor = document.getElementById("btn-mudar-cor");
+        btnMudarCor.addEventListener("click", function() {
+          if (corFundo === "#f8f8f8") {
+            corFundo = "#343a40"; // cor de fundo escura
+          } else {
+            corFundo = "#f8f8f8"; // cor de fundo clara
+          }
+          document.body.style.backgroundColor = corFundo;
+        });</script>
 </body>
 </html>

@@ -2,7 +2,6 @@ if (window.location.href.includes("index.html")) {
     alert("Seja bem vindo");
   }
   
-
 /*criando um array de imagens  */
 var imagens=[
     'img/4.jpg',
